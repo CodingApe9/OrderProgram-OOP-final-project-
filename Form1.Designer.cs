@@ -54,12 +54,23 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.flowLayoutPanel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -331,11 +342,118 @@
             this.Column2.HeaderText = "수량";
             this.Column2.Name = "Column2";
             // 
+            // flowLayoutPanel6
+            // 
+            this.flowLayoutPanel6.Controls.Add(this.button19);
+            this.flowLayoutPanel6.Controls.Add(this.button20);
+            this.flowLayoutPanel6.Controls.Add(this.button21);
+            this.flowLayoutPanel6.Controls.Add(this.button22);
+            this.flowLayoutPanel6.Controls.Add(this.button23);
+            this.flowLayoutPanel6.Controls.Add(this.button24);
+            this.flowLayoutPanel6.Controls.Add(this.button25);
+            this.flowLayoutPanel6.Controls.Add(this.button26);
+            this.flowLayoutPanel6.Controls.Add(this.button27);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(222, 48);
+            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(537, 394);
+            this.flowLayoutPanel6.TabIndex = 3;
+            // 
+            // button19
+            // 
+            this.button19.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button19.Location = new System.Drawing.Point(3, 3);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(172, 126);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "메뉴1";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button20.Location = new System.Drawing.Point(181, 3);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(172, 126);
+            this.button20.TabIndex = 1;
+            this.button20.Text = "메뉴2";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button21.Location = new System.Drawing.Point(359, 3);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(172, 126);
+            this.button21.TabIndex = 2;
+            this.button21.Text = "메뉴3";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button22.Location = new System.Drawing.Point(3, 135);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(172, 126);
+            this.button22.TabIndex = 3;
+            this.button22.Text = "메뉴4";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button23.Location = new System.Drawing.Point(181, 135);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(172, 126);
+            this.button23.TabIndex = 4;
+            this.button23.Text = "메뉴5";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button24.Location = new System.Drawing.Point(359, 135);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(172, 126);
+            this.button24.TabIndex = 5;
+            this.button24.Text = "x";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // button25
+            // 
+            this.button25.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button25.Location = new System.Drawing.Point(3, 267);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(172, 126);
+            this.button25.TabIndex = 6;
+            this.button25.Text = "x";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button26.Location = new System.Drawing.Point(181, 267);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(172, 126);
+            this.button26.TabIndex = 7;
+            this.button26.Text = "x";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button27.Location = new System.Drawing.Point(359, 267);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(172, 126);
+            this.button27.TabIndex = 8;
+            this.button27.Text = "x";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(881, 443);
+            this.Controls.Add(this.flowLayoutPanel6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.flowLayoutPanel5);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -348,6 +466,7 @@
             this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.flowLayoutPanel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -380,6 +499,16 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
     }
 }
 
