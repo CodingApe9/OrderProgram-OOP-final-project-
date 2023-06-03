@@ -89,6 +89,7 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(2, 2);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
@@ -96,10 +97,11 @@
             this.button1.Size = new System.Drawing.Size(215, 39);
             this.button1.TabIndex = 0;
             this.button1.Text = "식사메뉴";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(221, 2);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
@@ -107,10 +109,11 @@
             this.button2.Size = new System.Drawing.Size(215, 39);
             this.button2.TabIndex = 1;
             this.button2.Text = "세트메뉴";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.Location = new System.Drawing.Point(440, 2);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
@@ -118,10 +121,11 @@
             this.button3.Size = new System.Drawing.Size(215, 39);
             this.button3.TabIndex = 2;
             this.button3.Text = "사이드메뉴";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button4.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.Location = new System.Drawing.Point(659, 2);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
@@ -129,7 +133,7 @@
             this.button4.Size = new System.Drawing.Size(215, 39);
             this.button4.TabIndex = 3;
             this.button4.Text = "음료/주류";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel2
             // 
@@ -300,6 +304,7 @@
             // 
             // button17
             // 
+            this.button17.BackColor = System.Drawing.SystemColors.Highlight;
             this.button17.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button17.Location = new System.Drawing.Point(2, 2);
             this.button17.Margin = new System.Windows.Forms.Padding(2);
@@ -307,10 +312,11 @@
             this.button17.Size = new System.Drawing.Size(106, 195);
             this.button17.TabIndex = 0;
             this.button17.Text = "주문  하기";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.UseVisualStyleBackColor = false;
             // 
             // button18
             // 
+            this.button18.BackColor = System.Drawing.SystemColors.Info;
             this.button18.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button18.Location = new System.Drawing.Point(2, 201);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
@@ -318,7 +324,7 @@
             this.button18.Size = new System.Drawing.Size(106, 195);
             this.button18.TabIndex = 1;
             this.button18.Text = "주문  내역";
-            this.button18.UseVisualStyleBackColor = true;
+            this.button18.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
