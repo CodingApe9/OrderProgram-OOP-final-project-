@@ -33,6 +33,11 @@ namespace OrderProgram {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Display = new System.Windows.Forms.DataGridView();
+            this.주소 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.전화번호 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.배달예상시간 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.배달대행업체 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.상태 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -56,11 +61,7 @@ namespace OrderProgram {
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.companyPicture = new System.Windows.Forms.PictureBox();
-            this.주소 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.전화번호 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.배달예상시간 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.배달대행업체 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.상태 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.exit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Display)).BeginInit();
@@ -159,6 +160,31 @@ namespace OrderProgram {
             this.Display.Size = new System.Drawing.Size(497, 429);
             this.Display.TabIndex = 6;
             // 
+            // 주소
+            // 
+            this.주소.HeaderText = "주소";
+            this.주소.Name = "주소";
+            // 
+            // 전화번호
+            // 
+            this.전화번호.HeaderText = "전화번호";
+            this.전화번호.Name = "전화번호";
+            // 
+            // 배달예상시간
+            // 
+            this.배달예상시간.HeaderText = "배달예정시간";
+            this.배달예상시간.Name = "배달예상시간";
+            // 
+            // 배달대행업체
+            // 
+            this.배달대행업체.HeaderText = "배달대행업체";
+            this.배달대행업체.Name = "배달대행업체";
+            // 
+            // 상태
+            // 
+            this.상태.HeaderText = "상태";
+            this.상태.Name = "상태";
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(509, 107);
@@ -195,7 +221,7 @@ namespace OrderProgram {
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 81);
             this.button1.TabIndex = 2;
-            this.button1.Text = "종료";
+            this.button1.Text = "완료";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -364,9 +390,9 @@ namespace OrderProgram {
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TelPhoneApp.Properties.Resources.메가커피;
-            this.pictureBox2.Location = new System.Drawing.Point(630, 465);
+            this.pictureBox2.Location = new System.Drawing.Point(630, 511);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(207, 121);
+            this.pictureBox2.Size = new System.Drawing.Size(207, 67);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -381,36 +407,22 @@ namespace OrderProgram {
             this.companyPicture.TabIndex = 5;
             this.companyPicture.TabStop = false;
             // 
-            // 주소
+            // exit
             // 
-            this.주소.HeaderText = "주소";
-            this.주소.Name = "주소";
-            // 
-            // 전화번호
-            // 
-            this.전화번호.HeaderText = "전화번호";
-            this.전화번호.Name = "전화번호";
-            // 
-            // 배달예상시간
-            // 
-            this.배달예상시간.HeaderText = "배달예정시간";
-            this.배달예상시간.Name = "배달예상시간";
-            // 
-            // 배달대행업체
-            // 
-            this.배달대행업체.HeaderText = "배달대행업체";
-            this.배달대행업체.Name = "배달대행업체";
-            // 
-            // 상태
-            // 
-            this.상태.HeaderText = "상태";
-            this.상태.Name = "상태";
+            this.exit.Location = new System.Drawing.Point(641, 468);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(183, 37);
+            this.exit.TabIndex = 4;
+            this.exit.Text = "저장 후 프로그램 종료";
+            this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 587);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -477,6 +489,7 @@ namespace OrderProgram {
         private System.Windows.Forms.DataGridViewTextBoxColumn 배달예상시간;
         private System.Windows.Forms.DataGridViewTextBoxColumn 배달대행업체;
         private System.Windows.Forms.DataGridViewTextBoxColumn 상태;
+        private System.Windows.Forms.Button exit;
     }
 }
 

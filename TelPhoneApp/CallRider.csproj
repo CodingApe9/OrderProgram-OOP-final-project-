@@ -132,14 +132,5 @@
   <ItemGroup>
     <None Include="Resources\생각대로.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\메가커피1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\바로고1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\생각대로1.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

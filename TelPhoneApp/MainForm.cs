@@ -12,6 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using Google.Protobuf.WellKnownTypes;
 using MySqlX.XDevAPI.Relational;
 using System.Security.Cryptography;
+using TelPhoneApp;
 
 namespace OrderProgram {
     public partial class MainForm : Form {
@@ -260,6 +261,12 @@ namespace OrderProgram {
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.mega-mgccoffee.com/");
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            printDelivery();
+            this.Close();
         }
     }
 }
