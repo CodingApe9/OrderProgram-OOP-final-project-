@@ -17,6 +17,8 @@ using TelPhoneApp;
 namespace OrderProgram {
     public partial class MainForm : Form {
         string Conn = "Server=cs-dept.esm.kr;Port=23306;Database=syspDB;Uid=syspDB;Pwd=qotngns";
+        DataSet s = new DataSet();
+        string find = "SELECT * FROM Delivery";
         public MainForm() {
             InitializeComponent();
         }
@@ -80,6 +82,31 @@ namespace OrderProgram {
                 Display.Rows.Add(r[0], r[1], r[2], r[3], r[4]);
             }
         }
+        private void SaveData()
+        {
+            DataSet ds1 = new DataSet();
+
+            using (MySqlConnection conn = new MySqlConnection(Conn))
+            {
+                string sql = "SELECT * FROM Delivery";
+                MySqlDataAdapter adpt = new MySqlDataAdapter(sql, conn);
+                adpt.Fill(ds1, "Delivery");
+            }
+
+            Display.Rows.Clear();
+            using (MySqlConnection conn = new MySqlConnection(Conn))
+            {
+                conn.Open();
+                foreach (DataRow r in ds1.Tables[0].Rows)
+                {
+                    string str = $"INSERT INTO Delivery VALUES ('{r[0]}', '{r[1]}', '{r[2]}', '{r[3]}', '{r[4]}')";
+                    MySqlCommand cmd = new MySqlCommand(find, conn);
+                    cmd.ExecuteNonQuery();
+                    Display.Rows.Add(r[0], r[1], r[2], r[3], r[4]);
+                }
+            }
+        }
+
         private void btnRemove_Click(object sender, EventArgs e) {
             string phone = remove.Text;
             if (phone == "")
@@ -265,7 +292,7 @@ namespace OrderProgram {
 
         private void exit_Click(object sender, EventArgs e)
         {
-            printDelivery();
+            SaveData();
             this.Close();
         }
     }
