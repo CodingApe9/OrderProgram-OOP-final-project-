@@ -19,4 +19,6 @@ https://github.com/hansei-it/telphoneapp_cs21
 추가한 기능.
 
 1. 프로그램 목적 변경 그에 따른 디자인 변경: 전화 프로그램 -> 가게에서 배달 기사를 호출하는 프로그램으로 용도 변경
-2. db추가: 학교 서버의 mysql사용. https://cs.esm.kr/
+2. db추가: syspDB -> Delivery table(key = num) 학교 서버의 mysql사용. https://cs.esm.kr/
+3. 배달 추가: 주소와 전화번호로 새로운 Order객체를 만들고 db에 insert 그리고 리로드
+4. 배달 취소: db에서 삭제할 번호로 튜플을 찾아 삭제 그리고 리로드
