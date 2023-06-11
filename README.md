@@ -22,3 +22,4 @@ https://github.com/hansei-it/telphoneapp_cs21
 2. db추가: syspDB -> Delivery table(key = num) 학교 서버에 mysql 등록. https://cs.esm.kr/
 3. 배달 추가: 주소와 전화번호로 새로운 Order객체를 만들고 db에 insert 그리고 리로드
 4. 배달 취소: db에서 삭제할 번호로 튜플을 찾아 삭제 그리고 리로드
+5. 배달 검색: db에서 해당 전화번호로 검색 후 검색 결과를 출력.
