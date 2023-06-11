@@ -75,7 +75,7 @@ https://github.com/hansei-it/telphoneapp_cs21
 
 ---
  
-7. 기사 호출: 회사를 선택하고 기사를 호출한다. 배달 예정시간과 회사, 상태를 바꾸고 데이터를 db에 저장.
+7. 기사 호출: 배달를 선택하고 기사를 호출한다. 배달 예정시간과 회사, 상태를 바꾸고 데이터를 db에 저장.
 
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/d0d41485-b812-47c1-aa21-2dc3284913b2)
 
