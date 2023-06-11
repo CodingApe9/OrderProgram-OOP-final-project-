@@ -18,14 +18,14 @@ https://github.com/hansei-it/telphoneapp_cs21
 
 추가한 기능.
 
-1. 프로그램 목적 변경 그에 따른 디자인 변경: 전화 프로그램 -> 가게에서 배달 기사를 호출하는 프로그램으로 용도 변경
+# 1. 프로그램 목적 변경 그에 따른 디자인 변경: 전화 프로그램 -> 가게에서 배달 기사를 호출하는 프로그램으로 용도 변경
     변경 전.
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/30e8a275-3043-4a9d-bf02-93b7bd630610)
     
     변경 후.
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/e65beefe-70f6-44a3-9aa3-88e7c61bee59)
 
-2. db추가: syspDB 학과 DB서버에 mysql 등록. https://cs.esm.kr/
+# 2. db추가: syspDB 학과 DB서버에 mysql 등록. https://cs.esm.kr/
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/c5a5b6e4-c491-4527-a8fd-09f5fb8701f9)
     ![tempsnip](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/62ab5c82-d980-496b-a588-e53dbfcd32f8)
 
