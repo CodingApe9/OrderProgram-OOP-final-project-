@@ -59,13 +59,41 @@ https://github.com/hansei-it/telphoneapp_cs21
  
 7. 기사 호출: 회사를 선택하고 기사를 호출한다. 배달 예정시간과 회사, 상태를 바꾸고 데이터를 db에 저장.
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/d0d41485-b812-47c1-aa21-2dc3284913b2)
-    
-    
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/9668f789-5524-49e4-be10-4811b082f7d4)    
+---
+
 8. 배달 대행 업체 표시: 최근에 어떤 배달 대행 업체를 불렀는지 기사를 호출 후 그에 해당하는 로고를 좌상단에 표시.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/c0487e4d-dc6d-4a6c-8b2c-f1eabb0e0cb2)
+---
+    
 9. 전체 현황: 모든 배달을 출력한다.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/de1ac4a3-2b57-433f-a9bb-5233eac0b46f)
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/326a7c74-a00c-4354-a6fc-c68123fddb5e)
+---
+    
 10. 통계: 회사별 배달 횟수를 출력한다.
-11. 시전 전: 기사를 호출했으나 아직 배달을 시작하기 전 상태 인 배달들을 보여줌.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/646f3910-a3fc-4899-8d97-b93845eafa86)
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/db4d8415-81ee-44dd-af47-305e9be06a68)
+---
+    
+11. 시작 전: 기사를 호출했으나 아직 배달을 시작하기 전 상태 인 배달들을 보여줌.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/af7f7772-53c2-4d3b-9228-b6b952620a86)
+---
+    
 12. 시작 후: 진행중인 배달들을 보여줌.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/97691385-dac8-42bc-aa78-097d708aae66)
+---
+
 13. 완료: 완료한 배달들을 보여줌.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/2fad7b9f-4996-4c3a-96e4-2de7e77565b0)
+---
+
 14. 메가커피 웹 사이트 띄우기: 메가커피 사진을 클릭하면 메가커피 웹 사이트 창을 띄운다.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/9e02d707-cf93-48bb-b8e2-82b71c30528e)
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/abf7a4ee-d93a-40bc-ab29-b3b5fa80ba18)
+---
+
 15. 저장 후 프로그램 종료: 프로그램을 종료한다. 프로그램 실행 도중 DB에 저장되지 않은 정보가 있을 수도 있으니 모든 데이터를 DB에 저장하고 종료한다.
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/767dad85-ed8b-49f7-aa04-cce2845b25c0)
+
+
