@@ -170,7 +170,7 @@ namespace OrderProgram {
                 DataGridViewRow selectedRow = row;
                 string deleteAddress = selectedRow.Cells[0].Value.ToString();
                 string deletePhone = selectedRow.Cells[1].Value.ToString();
-                string deleteState = selectedRow.Cells[4].Value.ToString();
+                int deleteState = selectedRow.Cells[4].Value.ToString()=="" ? 0 : int.Parse(selectedRow.Cells[4].Value.ToString());
 
                 using (MySqlConnection conn = new MySqlConnection(Conn))
                 {
