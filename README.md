@@ -112,7 +112,7 @@ https://github.com/hansei-it/telphoneapp_cs21
 
 ---
     
-12. 시작 후: 진행중인 배달들을 보여줌.
+12. 진행 중: 진행중인 배달들을 보여줌.
 
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/97691385-dac8-42bc-aa78-097d708aae66)
 
