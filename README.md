@@ -1,6 +1,6 @@
 https://github.com/hansei-it/telphoneapp_cs21
 
-원본 소스
+# 원본 소스
 
 1. 첫 프로젝트 실습 시작
 
