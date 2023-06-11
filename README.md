@@ -1,3 +1,7 @@
+https://github.com/hansei-it/telphoneapp_cs21
+
+원본 소스
+
 1. 첫 프로젝트 실습 시작
 
 2. 기본 Person 객체 생성과 People객체 생성 및 
@@ -10,9 +14,4 @@
 5. 검색 버튼의 이벤트 생성 및 검색 기능 구현
 
 6. 검색, 삭제 기능 구현 및 출력 버튼 이벤트 구현
-
-https://github.com/hansei-it/telphoneapp_cs21
-
-원본 소스
 ---
-
