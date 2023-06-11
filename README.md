@@ -75,7 +75,7 @@ https://github.com/hansei-it/telphoneapp_cs21
 
 ---
  
-7. 기사 호출: 회사를 선택하고 기사를 호출한다. 배달 예정시간과 회사, 상태를 바꾸고 데이터를 db에 저장.
+7. 기사 호출: 배달를 선택하고 기사를 호출한다. 배달 예정시간과 회사, 상태를 바꾸고 데이터를 db에 저장.
 
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/d0d41485-b812-47c1-aa21-2dc3284913b2)
 
@@ -101,7 +101,8 @@ https://github.com/hansei-it/telphoneapp_cs21
 
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/646f3910-a3fc-4899-8d97-b93845eafa86)
 
-    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/db4d8415-81ee-44dd-af47-305e9be06a68)
+    ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/a97ae74e-7c51-40b4-9641-ddfa2cb10f9b)
+
 
 ---
     
@@ -111,7 +112,7 @@ https://github.com/hansei-it/telphoneapp_cs21
 
 ---
     
-12. 시작 후: 진행중인 배달들을 보여줌.
+12. 진행 중: 진행중인 배달들을 보여줌.
 
     ![image](https://github.com/CodingApe9/OrderProgram-OOP-final-project-/assets/117576404/97691385-dac8-42bc-aa78-097d708aae66)
 
