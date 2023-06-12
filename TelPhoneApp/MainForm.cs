@@ -222,7 +222,7 @@ namespace OrderProgram {
                 {
                     bCnt++;
                 }
-                else
+                else if(r[3].Equals("생각대로"))
                 {
                     sCnt++;
                 }
